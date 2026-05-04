@@ -1,54 +1,78 @@
 # 🚀 Pro Task Manager: My Universe
 
-A high-performance, visually stunning task management application built with **Glassmorphism UI** and **Local Storage** persistence. This project transforms a simple to-do list into a "mission control" experience for your daily tasks.
+A high-performance and visually stunning task management application built with a modern **Glassmorphism UI** and **Local Storage persistence**.  
+This project transforms a simple to-do list into a powerful **mission control system** for managing your daily tasks efficiently.
 
 ---
 
-## ✨ Features
-
-*   **Persistent Data**: Never lose your missions; tasks are automatically saved to and loaded from your browser's `localStorage`.
-*   **Dynamic Neon Accents**: Every task is randomly assigned a vibrant neon border from a palette of 6 colors to keep your list organized and colorful.
-*   **Modern Aesthetics**: Features animated background blobs, frosted-glass effects, and smooth transitions for a premium feel.
-*   **Smart Interactions**:
-    *   **Toggle**: Click tasks to mark them as completed with a strike-through effect.
-    *   **Quick Delete**: Remove individual tasks with a single click on the close icon.
-    *   **Clear All**: Wipe your entire universe with a confirmation prompt to avoid accidental deletion.
-*   **Accessibility & UX**: Built with the 'Outfit' Google font and includes `aria-label` support for screen readers.
+## 🌐 Live Preview  
+👉 https://github.com/manishaswal01/Todo
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features  
 
-*   **HTML5**: Semantic structure for better accessibility.
-*   **CSS3**: Custom variables, Flexbox, and Glassmorphic blur effects.
-*   **JavaScript (ES6+)**: Functional logic for task rendering, dynamic styling, and storage handling.
-*   **Linting**: Configured via `.hintrc` to ensure high-quality code standards by prohibiting inline styles.
+✔️ **Persistent Data Storage**  
+- Tasks are automatically saved in `localStorage`  
+- Data remains intact even after browser refresh  
 
----
+✔️ **Dynamic Neon Accents**  
+- Each task gets a randomly assigned neon border  
+- Improves visual organization and aesthetics  
 
-## 📂 Project Structure
+✔️ **Modern Glassmorphism UI**  
+- Frosted glass effects with blur  
+- Animated background blobs for a premium feel  
 
-*   `index.html`: The core structural layout of the application.
-*   `style.css`: Contains the space-themed visuals, layout rules, and animations.
-*   `script.js`: Handles the interactive logic, event listeners, and data persistence.
-*   `.hintrc`: Configuration file for development best practices.
+✔️ **Smart Task Interactions**  
+- ✔ Click to mark tasks as completed  
+- ❌ Delete individual tasks instantly  
+- 🧹 Clear all tasks with confirmation prompt  
 
----
-
-## 🚀 Installation & Usage
-
-1.  **Clone the Repository**:
-    ```bash
-    git clone https://github.com/manishaswal01/Todo.git
-    ```
-2.  **Run Locally**:
-    Simply open the `index.html` file in any modern web browser to start managing your missions.
+✔️ **Enhanced User Experience**  
+- Smooth animations and transitions  
+- Clean and minimal interface  
+- Accessible design with `aria-label` support  
 
 ---
 
-## 🔗 Connect & Support
+## 🛠️ Tech Stack  
 
-Agar aapko yeh project pasand aaya, toh yahan connect karein:
+| Technology        | Purpose |
+|------------------|--------|
+| HTML5            | Semantic structure |
+| CSS3             | Styling, layout, glass effects |
+| JavaScript (ES6+) | Logic, events, localStorage |
+| Google Fonts     | Modern typography ('Outfit') |
+| .hintrc          | Code quality & linting rules |
 
-*   **GitHub**: [@manishaswal01](https://github.com/manishaswal01)
-*   **Project Link**: [View Repository](https://github.com/manishaswal01/Todo)
+---
+
+## 📂 Project Structure  
+📁 Pro-Task-Manager
+│── index.html # Main structure
+│── style.css # UI, animations, glass effects
+│── script.js # Logic & data handling
+│── .hintrc # Linting configuration
+
+
+---
+
+## ⚙️ How It Works  
+
+1. User adds a task  
+2. Task is saved in `localStorage`  
+3. UI dynamically renders the task with a random neon color  
+4. User can:
+   - Toggle completion  
+   - Delete specific tasks  
+   - Clear all tasks  
+5. On reload, all tasks are restored automatically  
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/manishaswal01/Todo.git
